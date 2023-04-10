@@ -4,7 +4,7 @@ import au.com.daisbuild.daisbuild.entity.Enquiry;
 import au.com.daisbuild.daisbuild.payload.EnquiryDetails;
 import au.com.daisbuild.daisbuild.payload.StatusResponse;
 import au.com.daisbuild.daisbuild.service.EnquiryService;
-import au.com.daisbuild.repository.EnquiryRepository;
+import au.com.daisbuild.daisbuild.repository.EnquiryRepository;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;

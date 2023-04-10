@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/enquiry")
+@RequestMapping("/api/v1/enquiry")
 public class EnquiryController {
     private EnquiryService enquiryService;
 
